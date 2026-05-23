@@ -1,0 +1,129 @@
+.navbar {
+
+    position: fixed;
+
+    margin: auto;
+    width: 100%;
+
+top: 0;
+    left: 0;
+
+
+    height: 80px;
+
+z-index: 1000;
+
+
+}
+
+.navbar-logo {
+
+
+
+
+ }
+
+.navbar-buttons {
+
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+
+
+width: 420px;
+    height: 80px;
+    float: right;
+   display: block;
+    position: relative;
+
+}
+
+.navbar-buttons-booknow {
+
+    background: #000000;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+    height: 60px;
+    width: 220px;
+
+margin-top: 10px;
+
+    border: black solid 4px;
+
+    text-align: center;
+    font-size: 50px;
+    font-family: "JetBrains Mono ExtraBold", monospace;
+
+
+    background: rgba(0, 0, 0, 0.27);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.project-con-box-video {
+     opacity: 0;
+     transition: 0.3s;
+     z-index: 22;
+     width: 700px;
+     height: 900px;
+     position: absolute;
+     display: block;
+     left: -710px;
+
+     top: -10px;
+     right: -1000px;
+     margin: auto;
+     pointer-events: none;
+ }
+
+
+.project-con-cell:hover > div > .project-con-box-video {
+    opacity: 1;
+
+}
+
+.project-con-cell:hover {
+    width: 900px;
+
+}
+.project-con-box {
+    width: 100%;
+    height: 700px;
+    left: -170px;
+    position: relative;
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+.project-con-cell {
+    position: relative;
+    width: 780px;
+    height: 300px;
+    transition: 0.5s;
+    min-width: inherit;
+
+    object-fit: contain;
+    vertical-align: center;
+
+    overflow: visible;
+    z-index: 1;
+    opacity: 1;
+    cursor: pointer;
+    margin-left: -45px;
+    margin-right: -45px;
+    clip-path: polygon(90px 0%, 100% 0%, calc(100% - 90px) 100%, 0% 100%);
+
+    display: inline-block;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
