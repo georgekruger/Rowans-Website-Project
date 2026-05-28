@@ -124,8 +124,8 @@ body{
 
 .carousel-indicators > .carousel-imgdot {
     display: inline-block;
-    width: 160px;
-    height: 90px;
+    width: 155px;
+    height: 155px;
     text-indent: -999px;
     cursor: pointer;
     background-color: #0009;
