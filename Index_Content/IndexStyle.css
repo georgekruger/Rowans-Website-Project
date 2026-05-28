@@ -514,3 +514,22 @@ opacity: 1;
 
 
 }
+
+.project-con-box-title {
+    display: block;
+    width: 400px;
+    height: 100px;
+top: 200px;
+    position: absolute;
+    font-size: 100px;
+    left: 140px;
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+
+    z-index: 1000;
+padding-left: 60px;
+
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0) 100%);
+
+}
