@@ -1,0 +1,10 @@
+
+@font-face {
+            font-family: "Cairo";
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            font-variation-settings:
+                    "slnt" 0;
+    src: url("./fonts/Cairo-Black.ttf");
+        }
