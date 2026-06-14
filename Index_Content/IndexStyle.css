@@ -636,7 +636,7 @@ padding: 0px 100px 0px 100px;
     display: block;
     height: 12000px;
 
-    background-image: url("/Index_Content/bg12.png");
+    background-image: url("Index_Content/bg12.png");
     background-repeat: repeat-block;
     background-size: 800px;
 }
@@ -647,7 +647,7 @@ padding: 0px 100px 0px 100px;
     display: block;
     height: 12000px;
 
-    background-image: url("/Index_Content/bgkaara.png");
+    background-image: url("Index_Content/bgkaara.png");
     background-repeat: repeat-block;
     background-size: 800px;
 }
@@ -657,7 +657,7 @@ padding: 0px 100px 0px 100px;
      display: block;
      height: 12000px;
 
-     background-image: url("/Index_Content/bgPOOL.png");
+     background-image: url("Index_Content/bgPOOL.png");
      background-repeat: repeat-block;
      background-size: 800px;
  }
