@@ -569,15 +569,15 @@ opacity: 1;
     display: block;
     width: 400px;
     height: 100px;
-top: 200px;
+top: 140px;
     position: absolute;
     font-size: 100px;
-    left: 140px;
+    left: 0px;
     font-family: "JetBrains Mono", monospace;
     color: white;
 
     z-index: 1000;
-padding-left: 60px;
+padding-left: 40px;
 
     background: #000000;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0) 100%);
