@@ -114,13 +114,13 @@ margin-top: 10px;
 .project-con-cell {
     position: relative;
     width: 700px;
-    height: 240px;
+    height: 640px;
     transition: 0.5s;
     min-width: inherit;
 
     object-fit: contain;
     vertical-align: center;
-
+margin: 0px -45px 0px -45px;
 
     overflow: hidden;
     z-index: 1;
@@ -134,10 +134,11 @@ flex-grow: 1;
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
-    
-    margin: 10px;
 
-    border: #a50000 solid 3px;
+    background: green;
+
+    clip-path: polygon(90px 0%, 100% 0%, calc(100% - 90px) 100%, 0% 100%);
+
 }
 
 .top-left {
